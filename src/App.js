@@ -9,7 +9,7 @@ export class App extends Component {
     super()
     this.state = {
       progress: 10,
-      apiUrl: "https://newsapi.org/v2/everything?q=apple&from=2024-09-16&to=2024-09-16&sortBy=popularity&apiKey=f176f5d05ab5455b9be2595fe143d8fe"
+      apiUrl: "https://newsapi.org/v2/everything?q=apple&from=2024-09-16&to=2024-09-16&sortBy=popularity&apiKey=7063cf87382340f995c3f97617d92368"
     }
   }
   setProgress = (progress) => {
